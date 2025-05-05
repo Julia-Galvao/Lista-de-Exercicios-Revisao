@@ -6,21 +6,20 @@ public class ex14 {
 
             // declaração de variáveis
             DecimalFormat df = new DecimalFormat("0.000");
-            Scanner teclado = new Scanner(System.in);
-            double area, raio, altura;
+            Scanner sc = new Scanner(System.in);
+            double volume, raio, altura;
 
             // entrada de dados
             System.out.print("Raio --> ");
-            raio = teclado.nextDouble();
+            raio = sc.nextDouble();
             System.out.print("Altura --> ");
-            altura = teclado.nextDouble();
+            altura = sc.nextDouble();
 
             // processamento de dados
-            area = Math.PI * Math.pow(raio, 2) * altura;
+            volume = Math.PI * Math.pow(raio, 2) * altura;
 
             // saída de dados
-            System.out.println("área = " + df.format(area));
-        System.out.println( "raio = " + raio);
+            System.out.println("Volume = " + df.format(volume));
         }
     }
 
