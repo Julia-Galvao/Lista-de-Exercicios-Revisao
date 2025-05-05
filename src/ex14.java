@@ -20,6 +20,7 @@ public class ex14 {
 
             // saída de dados
             System.out.println("área = " + df.format(area));
+        System.out.println( "raio = " + raio);
         }
     }
 
