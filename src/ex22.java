@@ -6,12 +6,12 @@ public class ex22 {
 
         // declaração de variáveis
         DecimalFormat df = new DecimalFormat("0.00");
-        Scanner  teclado = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         double raio, area;
 
         // entrada de dados
         System.out.print("raio -->  ");
-        raio = teclado.nextDouble();
+        raio = sc.nextDouble();
 
         // processamento de dados
         area = Math.PI * raio * raio;

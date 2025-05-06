@@ -4,14 +4,14 @@ public class ex16 {
     public static void main(String[] args) {
 
         // declaração de variáveis
-        Scanner  teclado = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         int a, b;
 
         // entrada de dados
         System.out.print("valor de a --> ");
-        a = teclado.nextInt();
+        a = sc.nextInt();
         System.out.print("valor de b --> ");
-        b = teclado.nextInt();
+        b = sc.nextInt();
 
         // processamento de dados
         a = a + b;

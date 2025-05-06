@@ -6,12 +6,12 @@ public class ex26 {
 
         // declaração de variáveis
         DecimalFormat df = new DecimalFormat("0.00");
-        Scanner teclado = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         double x, y;
 
         // entrada de dados
         System.out.print("x --> ");
-        x = teclado.nextDouble();
+        x = sc.nextDouble();
 
         // processamento de dados
         y = x + (10 / Math.sqrt(4 + x * x));

@@ -6,22 +6,22 @@ public class ex23 {
 
         // declaração de variáveis
         DecimalFormat df = new DecimalFormat("0.00");
-        Scanner  teclado = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         int a, b, c, nulo, branco;
         int total;
         double pa, pb, pc, pnulo, pbranco;
 
         // entrada de dados
         System.out.print("Candidato A -->  ");
-        a = teclado.nextInt();
+        a = sc.nextInt();
         System.out.print("Candidato B -->  ");
-        b = teclado.nextInt();
+        b = sc.nextInt();
         System.out.print("Candidato C -->  ");
-        c = teclado.nextInt();
+        c = sc.nextInt();
         System.out.print("Votos em branco -->  ");
-        branco = teclado.nextInt();
+        branco = sc.nextInt();
         System.out.print("Votos nulo -->  ");
-        nulo = teclado.nextInt();
+        nulo = sc.nextInt();
 
         // processamento de dados
         total = a + b + c + nulo + branco;

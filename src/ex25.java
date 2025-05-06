@@ -6,12 +6,12 @@ public class ex25 {
 
         // declaração de variáveis
         DecimalFormat df = new DecimalFormat("0.00");
-        Scanner teclado = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         double pes, metros;
 
         // entrada de dados
         System.out.print("Distância em pés --> ");
-        pes = teclado.nextDouble();
+        pes = sc.nextDouble();
 
         // processamento de dados
         metros = pes * 0.3048;

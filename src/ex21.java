@@ -6,14 +6,14 @@ public class ex21 {
 
             // declaração de variáveis
             DecimalFormat df = new DecimalFormat("0.00");
-            Scanner  teclado = new Scanner(System.in);
+            Scanner sc = new Scanner(System.in);
             double salario, reajuste, novoSalario;
 
             // entrada de dados
             System.out.print("Salário atual --> R$ ");
-            salario = teclado.nextDouble();
+            salario = sc.nextDouble();
             System.out.print("Reajuste -->  ");
-            reajuste = teclado.nextDouble();
+            reajuste = sc.nextDouble();
 
             // processamento de dados
             novoSalario = salario + salario * reajuste / 100;

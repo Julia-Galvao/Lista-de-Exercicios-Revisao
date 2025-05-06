@@ -4,23 +4,23 @@ public class ex20 {
     public static void main(String[] args) {
 
         // declaração de variáveis
-        Scanner  teclado = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         int a, b, c, d;
         int produto, soma;
 
         // entrada de dados
         System.out.print("primeiro valor --> ");
-        a = teclado.nextInt();
+        a = sc.nextInt();
         System.out.print("segundo valor --> ");
-        b = teclado.nextInt();
+        b = sc.nextInt();
         System.out.print("terceiro valor --> ");
-        c = teclado.nextInt();
+        c = sc.nextInt();
         System.out.print("quarto valor --> ");
-        d = teclado.nextInt();
+        d = sc.nextInt();
 
         // processamento de dados
         produto = a * c;
-        soma = b * d;
+        soma = b + d;
 
         // saída de dados
         System.out.println("produto --> " + produto);

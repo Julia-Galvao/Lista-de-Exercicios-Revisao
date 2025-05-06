@@ -6,14 +6,14 @@ public class ex24 {
 
         // declaração de variáveis
         DecimalFormat df = new DecimalFormat("0.00");
-        Scanner teclado = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         double velocidade, distancia, tempo;
 
         // entrada de dados
         System.out.print("Distância --> ");
-        distancia = teclado.nextDouble();
+        distancia = sc.nextDouble();
         System.out.print("tempo --> ");
-        tempo = teclado.nextDouble();
+        tempo = sc.nextDouble();
 
         // processamento de dados
         velocidade = (distancia * 1000) / (tempo * 60);

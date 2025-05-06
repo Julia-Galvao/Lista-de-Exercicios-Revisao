@@ -6,17 +6,17 @@ public class ex15 {
 
             // declaração de variáveis
             DecimalFormat df = new DecimalFormat("0.00");
-            Scanner  teclado = new Scanner(System.in);
+            Scanner sc = new Scanner(System.in);
             double prestacao, valor, taxa;
             int tempo;
 
             // entrada de dados
             System.out.print("Qual o valor da parcela? ");
-            valor = teclado.nextDouble();
+            valor = sc.nextDouble();
             System.out.print("Qual o a taxa de juros cobrada? ");
-            taxa = teclado.nextDouble();
+            taxa = sc.nextDouble();
             System.out.print("Quantos dias de atraso? ");
-            tempo = teclado.nextInt();
+            tempo = sc.nextInt();
 
             // processamento de dados
             prestacao = valor + (valor * taxa / 100 * tempo);

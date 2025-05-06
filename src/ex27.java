@@ -6,16 +6,16 @@ public class ex27 {
 
         // declaração de variáveis
         DecimalFormat df = new DecimalFormat("0.00");
-        Scanner teclado = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         double a, b, c, sp, area;
 
         // entrada de dados
         System.out.print("lado 1 --> ");
-        a = teclado.nextDouble();
+        a = sc.nextDouble();
         System.out.print("lado 2 --> ");
-        b = teclado.nextDouble();
+        b = sc.nextDouble();
         System.out.print("lado 3 --> ");
-        c = teclado.nextDouble();
+        c = sc.nextDouble();
 
         // processamento de dados
         sp = (a + b + c) / 2;

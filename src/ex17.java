@@ -6,16 +6,16 @@ public class ex17 {
 
             // declaração de variáveis
             DecimalFormat df = new DecimalFormat("0.00");
-            Scanner teclado = new Scanner(System.in);
+            Scanner sc = new Scanner(System.in);
             double comprimento, largura, altura, volume;
 
             // entrada de dados
             System.out.print("comprimento da caixa --> ");
-            comprimento = teclado.nextDouble();
+            comprimento = sc.nextDouble();
             System.out.print("largura da caixa --> ");
-            largura = teclado.nextDouble();
+            largura = sc.nextDouble();
             System.out.print("altura da caixa --> ");
-            altura = teclado.nextDouble();
+            altura = sc.nextDouble();
 
             // processamento de dados
             volume = comprimento * largura * altura;

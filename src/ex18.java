@@ -6,14 +6,14 @@ public class ex18 {
 
             // declaração de variáveis
             DecimalFormat df = new DecimalFormat("0.00");
-            Scanner teclado = new Scanner(System.in);
+            Scanner sc = new Scanner(System.in);
             double valorReal, valorDolar, cotacao;
 
             // entrada de dados
             System.out.print("Quanto dólares serão convertidos? ");
-            valorDolar = teclado.nextDouble();
+            valorDolar = sc.nextDouble();
             System.out.print("Qual a cotação do dia? ");
-            cotacao = teclado.nextDouble();
+            cotacao = sc.nextDouble();
 
             // processamento de dados
             valorReal = valorDolar * cotacao;
